@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #cd9bff;
+  color: rgb(240, 251, 255);
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container .user {
+  flex: 0 1 calc(50% - 2rem); /* 50% lebar dengan jarak sekitar 2rem */
+}
+
+
